@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    margin: 0px;
+    background-color: rgba(255, 255, 236, 1);
+    padding-top: 0.1px;
+    /* цей колір не є базовим, але я прописую його так як сильно білий ріже очі */
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.menu > li{
+    float: left;
+    margin-left: 100px;
+}
+
+.submenu1, .submenu2, .submenu3, .submenu4{
+    display: none;
+    background-color: rgb(94, 94, 94);
+}
+
+.menuitem1:hover > .submenu1, .submenuitem{
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+}
+.submenuitem:hover{
+    background-color:rgb(34, 34, 34);
+}
+.submenuitem{
+    background-color: rgb(66, 66, 66);
+    margin-top: 3px;
+    text-align: center;
+}
+
+.menuitem2:hover > .submenu2, .submenuitem{
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.content{
+    height: 500px;
+    background-color: cornflowerblue;
+    margin-top: 100px;
+}
+
+.ggjj{
+    background-color: darkmagenta;
+    height: 50px;
+}
+.gg{
+    background-color: aquamarine;
+    height: 30px;
+    margin-top: 20px;
+}
